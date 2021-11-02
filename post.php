@@ -30,8 +30,12 @@ $attributes = [
     "billing" => $billing,
 ];
 
+// FYI = You can use the PAYMONGO secret key & password below;
+// "secret_key" => "sk_test_HL7BiubdGVbXHXCt2nhf8fNE"
+// "password" => "your-paymongo-password" 
+
 $source = [
-    "app_key" => "a327e923e8d7d921ad3d3b06cafd6d13ed4420b6", // get it from -> https://api4wrd.ukayra.com/register
+    "app_key" => "your-api4wrd-app-key", // get it from -> https://api4wrd.ukayra.com/register
     "secret_key" => "sk_test_HL7BiubdGVbXHXCt2nhf8fNE", // secret key from paymongo - be sure your account is fully activated
     "password" => "your-paymongo-password", // your paymongo account password - be sure your account is fully activated
     "data" => [
