@@ -33,6 +33,7 @@ $attributes = [
 // FYI = You can use the PAYMONGO secret key & password below;
 // "secret_key" => "sk_test_HL7BiubdGVbXHXCt2nhf8fNE"
 // "password" => "your-paymongo-password" 
+// sample
 
 $source = [
     "app_key" => "your-api4wrd-app-key", // get it from -> https://api4wrd.ukayra.com/register
