@@ -1,6 +1,6 @@
 <?php
 
-$url = "https://api4wrd-dev.ukayra.com/paymongo/v1/create"; // you will need an app_key, get it from -> https://api4wrd.ukayra.com/register
+$url = "https://api4wrd-dev.kpa.ph/paymongo/v1/create"; // you will need an app_key, get it from -> https://api4wrd.ukayra.com/register
 
 $redirect = [
     "success" => "your-domain/success.php",
