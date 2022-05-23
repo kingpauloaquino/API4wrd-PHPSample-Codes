@@ -1,6 +1,6 @@
 <?php
 
-$url = "https://api4wrd-dev.kpa.ph/paymongo/v1/create"; // you will need an app_key, get it from -> https://api4wrd.ukayra.com/register
+$url = "https://api4wrd-dev.kpa.ph/paymongo/v1/create"; // you will need an app_key, get it from -> https://api4wrd.kpa.ph/register
 
 $redirect = [
     "success" => "your-domain/success.php",
@@ -36,7 +36,7 @@ $attributes = [
 // sample
 
 $source = [
-    "app_key" => "your-api4wrd-app-key", // get it from -> https://api4wrd.ukayra.com/register
+    "app_key" => "your-api4wrd-app-key", // get it from -> https://api4wrd.kpa.ph/register
     "secret_key" => "sk_test_HL7BiubdGVbXHXCt2nhf8fNE", // secret key from paymongo - be sure your account is fully activated
     "password" => "your-paymongo-password", // your paymongo account password - be sure your account is fully activated
     "data" => [
