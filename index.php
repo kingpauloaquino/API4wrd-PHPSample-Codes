@@ -1,14 +1,14 @@
 <html>
 
 <head>
-    <title>Ukayra API4wrd by @kingpauloaquino</title>
-    <meta property="og:url" content="https://api4wrd.ukayra.com/demo/" />
+    <title>API4wrd by @kingpauloaquino</title>
+    <meta property="og:url" content="https://api4wrd.KPA.ph/demo/" />
     <meta property="og:type" content="Website" />
-    <meta property="og:title" content="Ukayra API4wrd by @kingpauloaquino" />
+    <meta property="og:title" content="API4wrd by @kingpauloaquino" />
     <meta property="og:description" content="API4wrd is a gateway or middleman to easily access other 3rd party APIs such as PAYMONGO, GCash, etc." />
-    <meta property="og:image" content="https://api4wrd.ukayra.com/images/k2-icon.png" />
-    <link rel="apple-touch-icon" href="https://api4wrd.ukayra.com/images/k2-icon.png">
-    <link rel="shortcut icon" type="image/png" href="https://api4wrd.ukayra.com/images/k2-icon.png" />
+    <meta property="og:image" content="https://api4wrd.KPA.ph/images/k2-icon.png" />
+    <link rel="apple-touch-icon" href="https://api4wrd.KPA.ph/images/k2-icon.png">
+    <link rel="shortcut icon" type="image/png" href="https://api4wrd.KPA.ph/images/k2-icon.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
         @media (min-width: 1200px) {
@@ -25,7 +25,7 @@
             <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
             <h2>Checkout form</h2>
             <p class="lead">Below is an example checkout form to try the GCASH-PAYMONGO using API4wrd as a gateway/middleman.</p>
-            <p class="lead">To be able to use API4wrd, you should register at this link: <a href="https://api4wrd.ukayra.com/register" target="_blank">GET ACCESS</a></p>
+            <p class="lead">To be able to use API4wrd, you should register at this link: <a href="https://api4wrd.KPA.ph/register" target="_blank">GET ACCESS</a></p>
         </div>
         <div class="row">
             <div class="col-md-12 order-md-1">
@@ -103,7 +103,7 @@
             </div>
         </div>
         <footer class="my-3 pt-3 text-muted text-center text-small">
-            <p class="mb-1">© 2021 Ukayra API4wrd</p>
+            <p class="mb-1">© <?php echo date("Y"); ?> API4wrd.KPA.ph</p>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="https://www.youtube.com/c/kingpauloaquino" target="_blank">Youtube</a></li>
                 <li class="list-inline-item"><a href="https://www.facebook.com/kingpauloaquino.ph" target="_blank">Facebook</a></li>

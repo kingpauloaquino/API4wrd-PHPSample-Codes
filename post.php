@@ -63,7 +63,8 @@ $resData = json_decode($result, true);
 if ($resData["status"] == 200) {
     header("Location: " . $resData["url_redirect"]);
 } else {
-    header("Location: index.php");
+    // header("Location: index.php");
+    echo $result;
 }
 
 die();
